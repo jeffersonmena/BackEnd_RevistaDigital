@@ -1,0 +1,21 @@
+<script type="text/javascript" charset="utf-8" async=""  <form  enctype="multipart/form-data" action="__URL__" method="POST">
+              <div class="form-group">
+                <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Subir Archivo* </label>
+                <div class="col-md-3 col-sm-3 col-xs-12">
+                  <input class="btn" type="file" name="SubirArchivo" id="SubirArchivo">
+                 </div>
+              </div>
+              
+               </form>
+
+SELECT documento.*,categoria .`nombrecategoria` AS categoria FROM documento 
+INNER JOIN categoria  ON documento.`idcategoria`=categoria.`idcategoria`
+
+1:35 26/02/2017
+
+
+
+
+
+$consulta="SELECT documento.*,categoria .`nombrecategoria` AS categoria FROM documento 
+INNER JOIN categoria  ON documento.`idcategoria`=categoria.`idcategoria`";
