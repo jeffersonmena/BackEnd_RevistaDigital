@@ -1,9 +1,8 @@
 <?php
-
 $host='localhost';
-$usuario='proyectoclase';
-$clave='123';
-$bd='ProyectoClase';
+$usuario='root';
+$clave='';
+$bd='revista';
 
 $conexion= new mysqli($host,$usuario,$clave,$bd);
 

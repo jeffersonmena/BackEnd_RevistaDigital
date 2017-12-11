@@ -1,4 +1,4 @@
-<?php
+ <?php
 $metodo= $_GET['op'];
 require('../modelo/ModeloCategoria.php');
 $objCategoria=new ModeloCategoria();
